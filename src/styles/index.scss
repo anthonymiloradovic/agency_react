@@ -1,0 +1,29 @@
+*{
+background-color: teal;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation {
+    ul {
+      display: flex;
+      margin: 30px;
+  
+      a {
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        
+  
+        li {
+          color: blue;
+          transition: 0.2s;
+          cursor: pointer;
+  
+          &:hover {
+            color: brown;
+          }
+        }
+      }
+    }
+  }
+  
