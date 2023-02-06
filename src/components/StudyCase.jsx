@@ -11,6 +11,9 @@ const clientsData = {
   sedal: {
     content: <div>Contenu de l'étude de cas pour Sedal</div>
   },
+  nou: {
+    content: <div>Contenu de l'étude de cas pour Nou</div>
+  },
 };
 
 const StudyCase = () => {

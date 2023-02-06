@@ -18,6 +18,9 @@ const Works = () => {
                 <li>
                     <Link to="/works/sedal-study-case">Etude de cas pour Sedal</Link>
                 </li>
+                <li>
+                    <Link to="/works/nou-study-case">Etude de cas pour Nou</Link>
+                </li>
             </ul>
         </div>
     );
