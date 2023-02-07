@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Works from "./pages/Works";
 import StudyCase from './components/StudyCase';
+import NotFound from "./pages/NotFound";
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/works" element={<Works />} />
         <Route path="/works/:clientName-study-case" element={<StudyCase/>} />
-        <Route path="*" element={<h1>404: Not Found</h1>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
     </BrowserRouter>
   );

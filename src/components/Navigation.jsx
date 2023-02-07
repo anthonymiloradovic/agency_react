@@ -1,21 +1,22 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import DayNightMode from './DarkMode/DarkMode';
 import Logo from './Logo';
 
 const Navigation = () => {
     return (
         <div className='navigation'>
             <Logo/>
+            <DayNightMode/>
             <ul>
                 
-                <NavLink to="/" className={(nav) =>
-                (nav.isActive ? "nav-active" : "")}>
+                <NavLink to="/">
                     <li>Home</li>
                 </NavLink>
-                <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")} >
+                <NavLink to="/about" >
                     <li>About</li>
                 </NavLink>
-                <NavLink to="/works" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                <NavLink to="/works" >
                     <li>Works</li>
                 </NavLink>
             </ul>

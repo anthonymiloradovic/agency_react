@@ -7,7 +7,9 @@ const Works = () => {
 
         <div className="works">
             <Navigation/>
-            <h1>Projets</h1>
+            <h2>  Au fil des années, nous avons pu accompagner les meilleurs.</h2>
+            <p>Découvrez pas à pas comment nous avons été présents pour lancer vos marques préférées.
+</p>
             <ul>
                 <li>
                     <Link to="/works/platon-study-case">Etude de cas pour Platon</Link>

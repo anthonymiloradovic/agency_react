@@ -1,0 +1,17 @@
+:root {
+    --day-background-color: #fff;
+    --day-text-color: #333;
+    --night-background-color: #333;
+    --night-text-color: #fff;
+  }
+  
+  body {
+    background-color: var(--day-background-color);
+    color: var(--day-text-color);
+  }
+  
+  .night {
+    --day-background-color: var(--night-background-color);
+    --day-text-color: var(--night-text-color);
+  }
+  
