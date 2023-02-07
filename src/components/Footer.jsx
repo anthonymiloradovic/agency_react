@@ -1,13 +1,13 @@
-// Footer.js
+
 import React from 'react';
 
 const Footer = () => {
     return (
         <div className='footer'>
             <ul>
-                <li>© 2023 - Tout droits réservés</li>
+                <li>© Session Automne 2022</li>
                 <li>THP</li>
-                <li>Session - Automne 2k22</li>
+                <li>I like 🍕</li>
                 <a 
                 href="https://github.com/anthonymiloradovic" 
                 target="_blank" 

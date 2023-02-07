@@ -1,19 +1,16 @@
 
-    
     .navigation {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
-      padding: 10px;
-      background-color: gradient(#fff, #000);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      position: relative;
+      height: 68px;
+      width: 100%;
+      border-bottom: 2px solid #fff0e5;
       
         ul {
           display: flex;
-          margin: 30px;
           padding: 0;
-          list-style: none;
+          
           
     
           
@@ -36,8 +33,7 @@
     
               
               &:hover {
-                color: rgb(214, 104, 254);
-                transition: 0.4s;
+                color: rgb(0, 255, 187);
               }
             }
           }

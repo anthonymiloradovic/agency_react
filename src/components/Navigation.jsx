@@ -7,7 +7,6 @@ const Navigation = () => {
     return (
         <div className='navigation'>
             <Logo/>
-            <DayNightMode/>
             <ul>
                 
                 <NavLink to="/">
@@ -20,6 +19,7 @@ const Navigation = () => {
                 <NavLink to="/works" >
                     <li>Works</li>
                 </NavLink>
+                <DayNightMode/>
             </ul>
         </div>
     );

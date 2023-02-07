@@ -2,18 +2,41 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding: 60px;
+  
 
     h1 {
-        font-size: 55px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 65px;
         margin: 40px;
         margin-top: 40px;
         margin-bottom: 40px;
-        color: rgb(0, 217, 255);
+        color: #fff0e5;
         text-shadow: 2px 2px #000;
         width: 60%;
         text-align: center;
     }
+    span {
+        text-decoration: underline;
+        text-decoration-color: #3224a2;
+        animation: color-change 5s linear infinite alternate;
+        width: 1px;
+      }
+      
+      @keyframes color-change {
+        0% {
+          text-decoration-color: #17d1de;
+        }
+        
+        50% {
+          text-decoration-color: #ad15ff;
+        }
+        
+        100% {
+          text-decoration-color: #1596f9;
+        }
+      }
+      
 
     p{
         font-size: 14px;
