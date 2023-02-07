@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 const NotFound = () => {
     return (
@@ -8,7 +9,7 @@ const NotFound = () => {
           <NavLink to="/">
             <button>Retour à l'accueil <i className='fas fa-home'></i></button>
           </NavLink>
-        </div>
+          <Footer/></div>
     );
 };
 

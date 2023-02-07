@@ -1,0 +1,47 @@
+
+    
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: gradient(#fff, #000);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      position: relative;
+      
+        ul {
+          display: flex;
+          margin: 30px;
+          padding: 0;
+          list-style: none;
+          
+    
+          
+      
+          a {
+            text-decoration: none;
+            list-style: none;
+            padding: 10px;
+    
+            
+            
+      
+            li {
+              color: #fff;
+              transition: 0.2s;
+              cursor: pointer;
+              font-size: 15px;
+              font-weight: bold;
+              
+    
+              
+              &:hover {
+                color: rgb(214, 104, 254);
+                transition: 0.4s;
+              }
+            }
+          }
+        }
+      }
+    
+      
